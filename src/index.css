@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply font-bold text-red-600 bg-transparent
+}
+.default{
+    @apply mr-3 font-medium bg-transparent text-red-300
+}
